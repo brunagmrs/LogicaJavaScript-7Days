@@ -9,7 +9,7 @@ Este arquivo contém pequenos trechos dos códigos escritos nos 7 dias, para ver
 
 **Tipagem de Variáveis**
 
-Neste dia pude verificar que no JavaScript as variáveis podem possuir tipos difentes, mas carregarem mesmo valor, indicando que elas possuem mesma equivalência
+Neste dia pude verificar que no JavaScript as variáveis podem possuir tipos difentes, mas carregarem mesmo valor, indicando que elas possuem mesma equivalência.
 
 
 ```javascript
@@ -25,11 +25,12 @@ if(stringNumDez == numDez){
 }
 ```
 link do código: [logicajsday01.js](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/logicajsday01.js)
+
 ## 👩‍💻 Day 02
 
 **Comando Alert**
 
-No desafio do dia 02 utilizei as variáveis para apresentarem Strings na tela do navegador com JavaScript e HTML
+No desafio do dia 02 utilizei as variáveis para apresentarem Strings na tela do navegador com o  uso de JavaScript e HTML.
 
 
 ```javascript
@@ -41,7 +42,9 @@ let linguagem = prompt('Qual linguagem você está estudando no momento?')
 //Apresentação em tela com valores inseridos
 alert('Olá ' + nome + '! você tem ' + idade + ', e no momento está aprendendo a linguagem de programação ' + linguagem + '!')
 ```
-link do código: [logicajsday02.js](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/logicajsday02.js)
+link do código JavaScript: [logicajsday02.js](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/logicajsday02.js)
+
+link do código HTML: [htmlday02.html](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/htmlday02.html)
 ## 👩‍💻 Day 03
 
 **Condicionais**
@@ -71,3 +74,20 @@ if (area == 1){
 }
 ```
 link do código: [logicajsday03.js](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/logicajsday03.js)
+
+link do código HTML: [htmlday03.html](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/htmlday03.html)
+
+## 👩‍💻 Day 04
+
+**Random**
+
+No dia 04 utilizei a função Random do JavaScript para gerar números aletórios de modo que o usuário pudesse deduzir o número gerado.
+
+```
+//gerar número aleatório de um a dez
+numCorreto = parseInt(Math.random() * 10)
+```
+
+link do código: [logicajsday04.js](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/logicajsday04.js)
+
+link do código HTML: [htmlday03.html](https://github.com/brunagmrs/LogicaJavaScript-7Days/blob/main/htmlday04.html)
