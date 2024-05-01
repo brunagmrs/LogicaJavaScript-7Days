@@ -1,3 +1,4 @@
+//declaração de variáveis
 let numUm = 1
 let stringNumUm = '1'
 let numTrinta = 30

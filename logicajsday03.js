@@ -4,7 +4,7 @@ let nomeArea
 let tecnologias
 
 
-// 2. Usuário escolhe uma das duas opções de tecnologia na área 
+// 2. Usuário escolhe uma das duas opções de tecnologia na área
 if (area == 1){
  nomeArea = 'Front-End'
  alert(`Você está ingresso na área de ${nomeArea}!`)
